@@ -72,7 +72,7 @@ public class Main {
         }
 
         //Usuwanie pojazdu bezpośrednio tylko, gdy amount = 0
-        //container.saloons.get("Showroom Warszawa").removeProduct(vehicle2); // Pojazd nie został dodany, więc drukuje error
+        //container.saloons.get("Showroom Warszawa").removeProduct(vehicle2);
 
         //Wyświetlenie informacji o salonie
         container.getSaloonInfo("Showroom Warszawa");
