@@ -1,4 +1,4 @@
-Lab. 1
+<h3>Lab. 1</h3>
 
 1. Cel: Prosty kalkulator pól i obwodów figur dwu- i trójwymiarowych;
 2. Przygotuj interfejs Printable z metodą void print();
