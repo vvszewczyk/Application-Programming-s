@@ -16,7 +16,7 @@ b. Metodę print wypisujący na standardowe wyjście pełne informacje o towarze
 c. Niech klasa Vehicle implementuje interfejs Comparable< Vehicle > pozwalający na porównanie
 obiektów ze względu na nazwę.
 
-5. Klasę CarShowroom, która zawiera takie informacje jak: nazwa salonu, lista samochodów, maksymalna
+3. Klasę CarShowroom, która zawiera takie informacje jak: nazwa salonu, lista samochodów, maksymalna
 pojemność salonu (maksymalna ilość wszystkich pojazdów). Oraz następujące metody:
 
 a. addProduct(Vehicle) – Dodająca produkt. Jeśli dany produkt będzie już obecny w magazynie
@@ -45,7 +45,7 @@ Comparator
 
 j. max() – zwracającą produkt którego jest najwięcej - zastosuj metodę Collections.max
 
-7. Klasę CarShowroomContainer przechowującą w Map<String, CarShowroom > salony. (Kluczem jest nazwa
+4. Klasę CarShowroomContainer przechowującą w Map<String, CarShowroom > salony. (Kluczem jest nazwa
 salonu), zaimplementuj metody:
 
 a. addCenter(String, double) – dodającą nowy salon o podanej nazwie i zadanej pojemności do spisu
@@ -58,7 +58,7 @@ c. findEmpty() – zwracający listę pustych magazynów
 d. summary() – wypisujący na standardowe wyjście informacje zawierające: nazwę salonu i
 procentowe zapełnienie
 
-9. Dodać co najmniej jedną przydatną metodę i zmienną.
+5. Dodać co najmniej jedną przydatną metodę i zmienną.
 
 Pokazać działanie wszystkich metod w aplikacji w metodzie main poprzez uruchomienie każdej
 metody wedle potrzeb. NIE twórz menu – pokaż przykładowe wywołania w metodzie main.
