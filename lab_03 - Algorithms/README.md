@@ -1,4 +1,4 @@
-Lab. 3 – Algorytmy
+<h3>Lab. 3 – Algorytmy</h3>
 
 Każde zadanie zaimplementuj w osobnej paczce. Zadbaj o przejrzystość kodu (w
 metodzie main powinno być tylko uruchomienie zadania, zadanie powinno być
