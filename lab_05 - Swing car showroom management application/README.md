@@ -1,4 +1,4 @@
-lab05 - Swing
+<h3>lab05 - Swing</h3>
 
 implementacja aplikacji okienkowej przy pomocy biblioteki Swing języka Java
 
