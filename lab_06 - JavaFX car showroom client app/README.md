@@ -1,4 +1,4 @@
-Lab06 - JavaFX
+<h3>Lab06 - JavaFX</h3>
 
 implementacja aplikacji klienckiej do obsługi salonu
 
