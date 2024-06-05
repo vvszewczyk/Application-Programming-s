@@ -1,0 +1,26 @@
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- JDBC driver class for MySQL -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+
+        <!-- JDBC URL for connecting to the MySQL database -->
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/database</property>
+
+        <!-- Database username and password-->
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+
+        <!-- Hibernate dialect for MySQL 8 -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <!-- Enable globally quoted identifiers to handle reserved words and special characters -->
+        <property name="hibernate.globally_quoted_identifiers">true</property>
+
+        <!-- Mapping classes for entities -->
+        <mapping class="org.carshowroom.carshowroomclientapp.Vehicle"/>
+        <mapping class="org.carshowroom.carshowroomclientapp.CarShowRoom"/>
+        <mapping class="org.carshowroom.carshowroomclientapp.Rating"/>
+
+    </session-factory>
+</hibernate-configuration>
