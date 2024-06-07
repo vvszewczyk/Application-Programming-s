@@ -1,11 +1,15 @@
  <h3>lab08 – Hibernate</h3>
 Materiały
 1. [Hibernate ORM website](https://hibernate.org/orm/documentation/5.4/)
+
 2. [Hibernate ORM starting
 guide](https://docs.jboss.org/hibernate/orm/5.4/quickstart/html_single/)
+
 3. [Hibernate ORM
 docs](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html)
+
 Zadania
+
 1. Stwórz bazę danych dla salonów, wykorzystując opis każdej z encji z lab05
 
 - Możliwe są dwa sposoby implementacji:
