@@ -5,47 +5,68 @@ implementacja aplikacji okienkowej przy pomocy biblioteki Swing języka Java
 Zadania
 1. Zaimplementuj lub wykorzystaj model z lab02, który dysponuje następującymi
 funkcjonalnościami:
+
 a. Klasę Vehicle z polami: marka (String), model (String), stan (ItemCondition), cena
 (double), rok produkcji (integer), przebieg (double), pojemność silnika (double)
+
 i. Konstruktor pozwalający na łatwą inicjalizację obiektu (marka, model, stan,
 cena, rok, przebieg, silnik)
+
 ii. Metodę print wypisujący na standardowe wyjście pełne informacje o
 towarze
+
 iii. Niech klasa Vehicle implementuje interfejs Comparable< Vehicle >
 pozwalający na porównanie obiektów ze względu na nazwę.
+
 b. Klasę CarShowroom, która zawiera takie informacje jak: nazwa salonu, lista
 samochodów, maksymalna pojemność salonu (maksymalna ilość wszystkich
 pojazdów). Oraz następujące metody:
+
 i. addProduct(Vehicle) – Dodająca produkt. Jeśli dany produkt będzie już
 obecny w magazynie (produkt o tej samej nazwie istnieje) to należy
 zsumować ich ilość. Produkt może zostać dodany, tylko jeśli niezostanie
 przekroczona pojemność magazynu. Jeśli pojemność zostanie przekroczona
 wypisz komunikat na standardowe wyjście błędów (System.err)
+
 ii. getProduct(Vehicle) – Zmniejszający ilość danego produktu o jeden lub
 usuwający go całkowicie, jeśli po zmianie wartość będzie równa 0.
+
 iii. removeProduct(Vehicle) – usuwający dany produkt całkowicie z magazynu.
+
 iv. search(String) - Przyjmującej nazwę produktu i zwracający go. Zastosuj
 Comparator
+
 v. searchPartial(String) – Przyjmujący fragment nazwy produktu i zwracający
 wszystkie produkty, które pasują.
+
 vi. countByCondition(ItemCondition) – zwracający ilość produktów o danym
 stanie
+
 vii. summary() – wypisującą na standardowe wyjście informację o wszystkich
 produktach
+
 viii. sortByName() – zwracającą posortowana listę produktów – po nazwie
 alfabetycznie
+
 ix. sortByAmount() – zwracającą posortowaną listę produktów po ilości –
 malejąco – zastosuj własny Comparator
+
 x. max() – zwracającą produkt którego jest najwięcej - zastosuj metodę
 Collections.max
+
 c. Klasę CarShowroomContainer przechowującą w Map<String, CarShowroom > salony.
 (Kluczem jest nazwa salonu), zaimplementuj metody:
+
 i. addCenter(String, double) – dodającą nowy salon o podanej nazwie i zadanej
 pojemności do spisu salonów
+
 ii. removeCenter(String) – usuwający salon o podanej nazwie
+
 iii. findEmpty() – zwracający listę pustych magazynów
+
 iv. summary() – wypisujący na standardowe wyjście informacje zawierające:
 nazwę salonu i procentowe zapełnienie
+
 3. Zaprojektuj interfejs graficzny do obsługi salonów
 4. Zaimplementuj obsługę interfejsu graficznego wedle następujących reguł:
 - Interfejs składa się z dwóch list: salonów (_list of centers) oraz pojazdów (_list of vehicles
