@@ -1,6 +1,9 @@
 <h3>lab05 - Swing</h3>
 
 implementacja aplikacji okienkowej przy pomocy biblioteki Swing języka Java
+<p align="center">
+  <img src="images/app1.png" alt="app1">
+</p>
 
 Zadania
 1. Zaimplementuj lub wykorzystaj model z lab02, który dysponuje następującymi
@@ -37,15 +40,25 @@ ii. getProduct(Vehicle) – Zmniejszający ilość danego produktu o jeden lub
 usuwający go całkowicie, jeśli po zmianie wartość będzie równa 0.
 
 iii. removeProduct(Vehicle) – usuwający dany produkt całkowicie z magazynu.
+<p align="center">
+  <img src="images/removecar1.png" alt="rmc1">
+  <img src="images/removecar2.png" alt="rmc2">
+</p>
 
 iv. search(String) - Przyjmującej nazwę produktu i zwracający go. Zastosuj
 Comparator
 
 v. searchPartial(String) – Przyjmujący fragment nazwy produktu i zwracający
 wszystkie produkty, które pasują.
+<p align="center">
+  <img src="images/text_filter.png" alt="txtf">
+</p>
 
 vi. countByCondition(ItemCondition) – zwracający ilość produktów o danym
 stanie
+<p align="center">
+  <img src="images/condition_filter.png" alt="conf">
+</p>
 
 vii. summary() – wypisującą na standardowe wyjście informację o wszystkich
 produktach
@@ -55,6 +68,9 @@ alfabetycznie
 
 ix. sortByAmount() – zwracającą posortowaną listę produktów po ilości –
 malejąco – zastosuj własny Comparator
+<p align="center">
+  <img src="images/sortbyload.png" alt="loadsort">
+</p>
 
 x. max() – zwracającą produkt którego jest najwięcej - zastosuj metodę
 Collections.max
@@ -64,6 +80,10 @@ c. Klasę CarShowroomContainer przechowującą w Map<String, CarShowroom > salon
 
 i. addCenter(String, double) – dodającą nowy salon o podanej nazwie i zadanej
 pojemności do spisu salonów
+<p align="center">
+  <img src="images/addsalon1.png" alt="as1">
+  <img src="images/addsalon2.png" alt="as2">
+</p>
 
 ii. removeCenter(String) – usuwający salon o podanej nazwie
 
@@ -73,6 +93,7 @@ iv. summary() – wypisujący na standardowe wyjście informacje zawierające:
 nazwę salonu i procentowe zapełnienie
 
 3. Zaprojektuj interfejs graficzny do obsługi salonów
+
 4. Zaimplementuj obsługę interfejsu graficznego wedle następujących reguł:
 - Interfejs składa się z dwóch list: salonów (_list of centers) oraz pojazdów (_list of vehicles
 in selected center).
@@ -88,6 +109,9 @@ informacji nt. AbstractTableModel na [StackOverflow]
 (https://stackoverflow.com/questions/9845800/abstracttablemodel-tutorial).
 - Po wybraniu salonu (zaznaczeniu go na liście salonów) wyświetla się dostępna w nim lista
 samochodów.
+<p align="center">
+  <img src="images/salon_combo.png" alt="saloncombo">
+</p>
 - Zaznaczony salon lub pojazd ma zostać usunięty po naciśnięciu odpowiedniego guzika
 (_remove carShowroom _ lub _remove vehicle_).
 - Po naciśnięciu przycisków dodaj salon (_add carShowroom center_) oraz dodaj produkt
