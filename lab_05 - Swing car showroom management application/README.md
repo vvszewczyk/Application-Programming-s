@@ -29,7 +29,7 @@ przekroczona pojemność magazynu. Jeśli pojemność zostanie przekroczona
 wypisz komunikat na standardowe wyjście błędów (System.err)
 
 <p align="center">
-  <img src="/images/addcar1.png" alt="ac1">
+  <img src="../images/addcar1.png" alt="ac1">
 </p>
 
 ii. getProduct(Vehicle) – Zmniejszający ilość danego produktu o jeden lub
