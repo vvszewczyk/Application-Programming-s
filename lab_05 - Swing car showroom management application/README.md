@@ -40,6 +40,7 @@ ii. getProduct(Vehicle) – Zmniejszający ilość danego produktu o jeden lub
 usuwający go całkowicie, jeśli po zmianie wartość będzie równa 0.
 
 iii. removeProduct(Vehicle) – usuwający dany produkt całkowicie z magazynu.
+
 <p align="center">
   <img src="images/removecar1.png" alt="rmc1">
   <img src="images/removecar2.png" alt="rmc2">
@@ -50,12 +51,14 @@ Comparator
 
 v. searchPartial(String) – Przyjmujący fragment nazwy produktu i zwracający
 wszystkie produkty, które pasują.
+
 <p align="center">
   <img src="images/text_filter.png" alt="txtf">
 </p>
 
 vi. countByCondition(ItemCondition) – zwracający ilość produktów o danym
 stanie
+
 <p align="center">
   <img src="images/condition_filter.png" alt="conf">
 </p>
@@ -68,6 +71,7 @@ alfabetycznie
 
 ix. sortByAmount() – zwracającą posortowaną listę produktów po ilości –
 malejąco – zastosuj własny Comparator
+
 <p align="center">
   <img src="images/sortbyload.png" alt="loadsort">
 </p>
@@ -80,6 +84,7 @@ c. Klasę CarShowroomContainer przechowującą w Map<String, CarShowroom > salon
 
 i. addCenter(String, double) – dodającą nowy salon o podanej nazwie i zadanej
 pojemności do spisu salonów
+
 <p align="center">
   <img src="images/addsalon1.png" alt="as1">
   <img src="images/addsalon2.png" alt="as2">
@@ -109,6 +114,7 @@ informacji nt. AbstractTableModel na [StackOverflow]
 (https://stackoverflow.com/questions/9845800/abstracttablemodel-tutorial).
 - Po wybraniu salonu (zaznaczeniu go na liście salonów) wyświetla się dostępna w nim lista
 samochodów.
+
 <p align="center">
   <img src="images/salon_combo.png" alt="saloncombo">
 </p>
